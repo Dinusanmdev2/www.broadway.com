@@ -1,0 +1,228 @@
+.hidden {
+  display: none;
+}
+
+.strong {
+  font-weight: 600;
+}
+
+.selectize-input {
+  margin: 0px;
+  border: 1px solid #9e9e9e;
+}
+
+.btn-info {
+  color: white;
+}
+
+.btn-info:hover {
+  color: white;
+}
+
+#overlay-Loader {
+  position: fixed;
+  top: 0;
+  z-index: 3000;
+  width: 100%;
+  height: 100%;
+  display: none;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.overlay-show {
+  position: fixed;
+  top: 0;
+  z-index: 3000;
+  width: 100%;
+  height: 100%;
+  display: show;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/*ScrollBar*/
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6c757d;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0d6efd;
+}
+
+/*ScrollBar*/
+
+/*Loader*/
+#loader {
+  position: fixed;
+  top: 0;
+  z-index: 10000;
+  width: 100%;
+  height: 100%;
+  display: none;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+#loader .load-spinner {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#loader .spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px #ddd solid;
+  border-top: 4px #2e93e6 solid;
+  border-radius: 50%;
+  animation: sp-anime 0.8s infinite linear;
+}
+
+@keyframes sp-anime {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*Loader*/
+
+/*Login Form*/
+.login-logo {
+  width: 150px;
+}
+
+#layoutAuthentication {
+  background-image: url("/images/login-bg.jpg");
+}
+
+.login-forgot {
+  color: #21afb4;
+}
+
+.login-forgot:hover {
+  color: #21afb4;
+}
+
+.btn-doctor {
+  color: white;
+  background-color: #3d7db5;
+}
+
+.btn-doctor:hover {
+  color: white;
+  background-color: #468fce;
+}
+
+/*Login Form*/
+
+/*Topbar*/
+.subheading-2 {
+  font-weight: bold;
+}
+
+/*Topbar*/
+
+/*Register*/
+.register-logo {
+  width: 220px;
+}
+
+.login-here {
+  color: #21afb4;
+  font-weight: bold;
+}
+
+.login-here:hover {
+  color: #21afb4;
+}
+
+@media only screen and (max-width: 350px) {
+  .register-logo {
+    width: 150px;
+  }
+}
+
+/*Register*/
+
+/*User Profile*/
+.user-info .user-picture {
+  max-width: 200px;
+  max-height: 200px;
+  cursor: pointer;
+}
+
+/*User Profile*/
+
+/* clinic page */
+.submit-btn {
+  background-color: #21afb4;
+  color: white;
+}
+
+.passwordVisibility {
+  cursor: pointer;
+}
+.search {
+  position: relative;
+  box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+
+}
+
+.search input {
+
+  height: 40px;
+  text-indent: 25px;
+  border: 2px solid #d6d4d4;
+
+
+}
+
+
+.search input:focus {
+
+  box-shadow: none;
+  border: 2px solid blue;
+
+
+}
+
+.search .fa-search {
+
+  position: absolute;
+  top: 13px;
+  left: 16px;
+
+}
+
+.search button {
+
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  height: 50px;
+  width: 110px;
+  background: blue;
+
+}
+
+.ver-center-table td,
+th {
+  vertical-align: middle;
+}
+
+.th-lg {
+  width: 8rem;
+}
+
+.th-lg-percent {
+  width: 20%;
+}
